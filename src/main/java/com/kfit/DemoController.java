@@ -1,6 +1,7 @@
 package com.kfit;
 
 
+import com.kfit.domain.Stu;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -23,6 +24,8 @@ public class DemoController {
     @Autowired
     DemoInfoService demoInfoService;
 
+    @Autowired
+    private RoleService roleService;
     static int i = 1;
 
     @Autowired
@@ -58,12 +61,22 @@ public class DemoController {
     public @ResponseBody
     String test() {
         try {
-            demoInfoService.test();
-        }catch (Exception e){
+             demoInfoService.test();
+
+//            Stu stu = new Stu();
+//            stu.setName("hell2");
+//            stu.setSex("male");
+//            stu.setAge("350");
+//            roleService.test2(stu);
+
+
+        } catch (Exception e) {
             e.printStackTrace();
+            return "error";
+            //throw new RuntimeException("排除自定义异常，让spring回归事务");
         }
 
-		//demoinfo loaded = demoInfoService.findById(1);
+        //demoinfo loaded = demoInfoService.findById(1);
 //		System.out.println("loaded=" + loaded);
 //		DemoInfo cached = demoInfoService.findById(1);
 //		System.out.println("cached=" + cached);

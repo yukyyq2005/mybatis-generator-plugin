@@ -52,11 +52,11 @@ public class DemoInfoServiceImpl implements DemoInfoService {
     }
 
     //@Transactional(isolation = Isolation.SERIALIZABLE, propagation = Propagation.REQUIRED)
-//    @Transactional(propagation = Propagation.REQUIRED)
-//    void test2(Stu stu){
-//        stuMapper.insert(stu);
-//        int z = 1/0;
-//    }
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    void test2(Stu stu){
+        stuMapper.insert(stu);
+        //int z = 1/0;
+    }
     //@Override
     @Transactional(propagation = Propagation.REQUIRED)
     public void test() {
@@ -83,9 +83,9 @@ public class DemoInfoServiceImpl implements DemoInfoService {
             stu.setSex("male"+str);
             stu.setAge("35"+str);
             try{
-                roleService.test2(stu);
+                this.test2(stu);
            }catch (Exception e){
-               e.printStackTrace();
+               throw  new RuntimeException("排除自定义异常，让spring回归事务");
             }
 
         }

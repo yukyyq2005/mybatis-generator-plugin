@@ -57,7 +57,12 @@ public class DemoController {
     @RequestMapping("/test")
     public @ResponseBody
     String test() {
-        demoInfoService.test();
+        try {
+            demoInfoService.test();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
 		//demoinfo loaded = demoInfoService.findById(1);
 //		System.out.println("loaded=" + loaded);
 //		DemoInfo cached = demoInfoService.findById(1);

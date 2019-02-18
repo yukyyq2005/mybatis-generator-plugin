@@ -8,7 +8,10 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.web.bind.annotation.*;
 ;import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import static java.lang.StrictMath.random;
@@ -31,6 +34,7 @@ public class DemoController {
     @Autowired
     private RedisTemplate<String, String> redisTemplate;
 
+    //有注解参数，RequestParam默认参数不允许为空，可以配置required进行改变
     @RequestMapping(value = "/add.do", method = RequestMethod.GET)
     public ResponseVo addManageType(
             @RequestParam(value = "parentId") String parentId,
@@ -56,6 +60,22 @@ public class DemoController {
 
         return ResponseVo.getSuccResult(3);
     }
+    @PostMapping("/pojo")
+    @ResponseBody
+    public  Product pojo(@Valid @RequestBody Product pojo, Error error){
+        return  pojo;
+    }
+
+    @GetMapping("/name")
+    @ResponseBody
+    //无注解参数，要求和前端参数名称保持一致，参数允许为空
+    public Map<String, Object> paramName(String []names, @RequestParam("nums") Long[]ids){
+        Map<String, Object> result = new HashMap<>();
+        result.put("names", names);
+        result.put("ids", ids);
+        return result;
+    }
+
 
     @RequestMapping("/test")
     public @ResponseBody

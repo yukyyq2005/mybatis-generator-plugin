@@ -29,8 +29,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-@Configuration
-@EnableCaching // 启用缓存，这个注解很重要；
+//@Configuration
+//@EnableCaching // 启用缓存，这个注解很重要；
 public class RedisCacheConfig extends CachingConfigurerSupport {
 
     @Bean

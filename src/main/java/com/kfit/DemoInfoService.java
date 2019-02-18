@@ -1,5 +1,7 @@
 package com.kfit;
 
+import com.kfit.domain.Stu;
+
 import java.util.List;
 
 public interface DemoInfoService {
@@ -9,7 +11,7 @@ public interface DemoInfoService {
 
     public void deleteFromCache(int id);
 
-    void test();
+    Stu test();
 
     //public  demoinfo getdemoinfoById(int id);
 //    public List<demoinfo> querydemoinfosByNameLike(String name);

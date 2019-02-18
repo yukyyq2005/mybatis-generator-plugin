@@ -1,6 +1,8 @@
 package com.kfit.domain;
 
-public class Stu {
+import java.io.Serializable;
+
+public class Stu implements Serializable {
     private String name;
 
     private String sex;

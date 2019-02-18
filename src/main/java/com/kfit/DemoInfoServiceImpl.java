@@ -7,16 +7,20 @@ import javax.annotation.Resource;
 import com.kfit.dao.RoleMapper;
 import com.kfit.dao.StuMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 //import org.apache.el.stream.Optional;
-//import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.domain.Example;
 import org.springframework.data.redis.core.StringRedisTemplate;
 //import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.kfit.domain.Stu;
 import org.springframework.transaction.annotation.Isolation;
@@ -29,14 +33,15 @@ public class DemoInfoServiceImpl implements DemoInfoService {
 //    public static final String CACHE_KEY = "'demoInfo'";
 //    public static final String DEMO_CACHE_NAME = "demo";
 
-//    @Autowired
-//    private RedisTemplate<String, String> redisTemplate;
+    @Autowired
+    //private RedisTemplate<String, String> redisTemplate;
+    private RedisTemplate<Object, Object> redisTemplate;
 
     //@Resource
-    // private RedisTemplate<String, String> redisTemplate;
+    //private RedisTemplate<String, String> redisTemplate;
 
     //@Resource
-    private DemoInfoRepository demoInfoRepository;
+    //private DemoInfoRepository demoInfoRepository;
 
     @Resource
     private StuMapper stuMapper;
@@ -55,37 +60,63 @@ public class DemoInfoServiceImpl implements DemoInfoService {
 
     //Acquired Connection
     //@Override
-    //@Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
-    @Transactional(isolation = Isolation.READ_COMMITTED)
-    public void test() {
+    @Transactional(isolation = Isolation.READ_COMMITTED, propagation = Propagation.REQUIRED)
+    //@Transactional(isolation = Isolation.READ_COMMITTED)
 
-        int num = 0;
-        String str = "";
-        Stu stu = null;
+    //方法返回的结果存入缓存。用于新增和修改
+    //@CachePut(cacheNames = "rediscache",key = "'stu_'+#result.name",condition="#result!=null")
+    //先从缓存获取，如果成功，则不执行方法逻辑，直接返回，否则将执行方法逻辑。用于查询
+    @Cacheable(value = "stu", key = "'stu_'", unless = "#result == null")
+    //先从缓存获取，如果成功，则不执行方法逻辑，直接返回，否则将执行方法逻辑。用于删除
+    //@CacheEvict(cacheNames="stu",key="'stu_'",beforeInvocation = false)
+    public Stu test() {
+        Stu stu = new Stu();
+        stu.setName("YOUQIANG");
+        stu.setSex("male");
+        return stu;
 
-        //注册
-        num =  new Double(Math.random() * 1000000).intValue();
-        str = String.valueOf(num);
-        stu = new Stu();
-        //stu.setName("YOUQIANG" + str);
-        stu.setSex("male"+str);
-        stu.setAge("35"+str);
-        stuMapper.insert(stu);
+//        Stu stu = new Stu();
+//        stu.setName("YOUQIANG");
+//        Map<String,String> hashddd = new HashMap<>();
+//        hashddd.put("key","value1");
+//        hashddd.put("key2","value2");
+//       redisTemplate.opsForHash().putAll("hash", hashddd);
+//
+//        Map<Object,Object> map = redisTemplate.opsForHash().entries("hash");
+//
+//        redisTemplate.opsForValue().set("user1", stu);
+//
+//        Stu stringValue = (Stu)redisTemplate.opsForValue().get("user1");
+//        System.out.println(map);
 
-        //加积分
-        try{
-            stu = new Stu();
-            stu.setName("YOUQIANG" + str);
-            stu.setSex("male"+str);
-            stu.setAge("35"+str);
-            roleService.test2(stu);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+//        Long start = System.currentTimeMillis();
+//        for (int i = 0; i < 20000; i++) {
+//            //redisTemplate.opsForValue().set("key"+i,"value"+i);
+//            redisTemplate.opsForHash().put("hashValue","map1"+i,"value"+i);
+//        }
+//        Long end = System.currentTimeMillis();
+//        System.out.println("time : " + (end-start));
 
-
-
-
+//        int num = 0;
+//        String str = "";
+//        Stu stu = null;
+//        //注册
+//        stu = new Stu();
+//
+//        stu.setName("YOUQIANG1" + str);
+//        stuMapper.insert(stu);
+//        //加积分
+//        try {
+//            stu = new Stu();
+//            //stu.setName("YOUQIANG2" + str);
+//            roleService.test2(stu);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//            //throw e;
+//        }
+//        stu = new Stu();
+//        stu.setName("YOUQIANG3" + str);
+//        stuMapper.insert(stu);
 //
 //        List<Stu> list = new ArrayList<>();
 //        for (int i = 0; i < 6; i++) {
@@ -113,8 +144,6 @@ public class DemoInfoServiceImpl implements DemoInfoService {
 //                //throw new RuntimeException("排除自定义异常，让spring回归事务");
 //            }
 //        }
-
-
 
 
         // ValueOperations<String, String> valueOperations =

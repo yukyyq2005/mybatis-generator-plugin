@@ -24,7 +24,7 @@ import com.kfit.Product;
 @RestController
 //@RequestMapping("/demo")
 @PropertySource({"classpath:prop.properties"})
-@ConfigurationProperties
+//@ConfigurationProperties
 public class DemoController {
 	
 	@Value("${web.file.path}")

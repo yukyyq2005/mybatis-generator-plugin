@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @date ：Created in 2019/2/17 17:54
  * @modified By：
  */
-@Component
+//@Component
 public class ThreadPoolTask {
 
     private ThreadPoolTaskScheduler taskScheduler;

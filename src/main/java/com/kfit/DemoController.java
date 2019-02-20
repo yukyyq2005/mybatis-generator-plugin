@@ -67,7 +67,7 @@ public class DemoController {
 
     @GetMapping("/testd")
     public  Object testjson( ){
-    	return  new Product(new Long(10),"dddd","dddd", new Date());
+    	return  new Product(new Long(247823),"rrr","helloworld12dd", new Date());
     }
 
 	@GetMapping("/name")

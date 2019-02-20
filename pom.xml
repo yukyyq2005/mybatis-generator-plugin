@@ -89,6 +89,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>xdclass_springboot</finalName>
 		<plugins>
 
 			<!-- 用于打包 -->

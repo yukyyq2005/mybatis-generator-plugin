@@ -35,6 +35,7 @@ public class DemoController {
 	
 	@GetMapping("/get")
     public  Object get( ){
+		//int i=1/0;
     	return  user;
     }
 

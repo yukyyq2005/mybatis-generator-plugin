@@ -1,10 +1,13 @@
 package com.kfit;
 
-import com.kfit.domain.Stu;
+//import com.kfit.domain.Stu;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+//import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.data.redis.core.ValueOperations;
+//import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
@@ -13,14 +16,27 @@ import java.util.Date;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
+//import java.util.concurrent.TimeUnit;
 import com.kfit.Product;
 
-import static java.lang.StrictMath.random;
+//import static java.lang.StrictMath.random;
 
 @RestController
 //@RequestMapping("/demo")
+@PropertySource({"classpath:prop.properties"})
+@ConfigurationProperties
 public class DemoController {
+	
+	@Value("${web.file.path}")
+	private String filepath;
+	
+	@Autowired
+	private User user;
+	
+	@GetMapping("/get")
+    public  Object get( ){
+    	return  user;
+    }
 
 //    @Value("${live.accessKeyId}")
 //    private String accessKeyId;
@@ -28,12 +44,13 @@ public class DemoController {
 	@Autowired
 	DemoInfoService demoInfoService;
 
-	@Autowired
-	private RoleService roleService;
+	//@Autowired
+	//private RoleService roleService;
 	static int i = 1;
 
-	@Autowired
-	private RedisTemplate<String, String> redisTemplate;
+	
+	//@Autowired
+	//private RedisTemplate<String, String> redisTemplate;
 
 	// 有注解参数，RequestParam默认参数不允许为空，可以配置required进行改变
 	@RequestMapping(value = "/add.do", method = RequestMethod.GET)

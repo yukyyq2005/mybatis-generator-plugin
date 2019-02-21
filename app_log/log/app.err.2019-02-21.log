@@ -1,0 +1,2 @@
+2019-02-21 20:41:05.055 ERROR[http-nio-8080-exec-4]com.kfit.DemoController.testLog:46 -this is error level
+2019-02-21 22:25:52.574 ERROR[http-nio-8080-exec-2]com.kfit.DemoController.testLog:55 -this is error level

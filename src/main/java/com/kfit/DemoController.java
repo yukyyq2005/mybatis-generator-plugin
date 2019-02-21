@@ -1,6 +1,8 @@
 package com.kfit;
 
 //import com.kfit.domain.Stu;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -16,6 +18,7 @@ import java.util.Date;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
+
 //import java.util.concurrent.TimeUnit;
 import com.kfit.Product;
 
@@ -26,13 +29,34 @@ import com.kfit.Product;
 @PropertySource({"classpath:prop.properties"})
 //@ConfigurationProperties
 public class DemoController {
-	
+
+	private Logger logger = LoggerFactory.getLogger(this.getClass());
+
 	@Value("${web.file.path}")
 	private String filepath;
+
+	@Value("${test.url}")
+	private String url;
+	@Value("${test.host}")
+	private String host;
+	@GetMapping("/test/url")
+	public  Object testUrl( ){ return  url; }
+	@GetMapping("/test/host")
+	public  Object testHost( ){ return  host; }
 	
 	@Autowired
 	private User user;
-	
+
+	@GetMapping("/log")
+	public  Object testLog( ){
+		logger.debug("this is debug level");
+		logger.info("this is info level");
+		logger.warn("this is warn level");
+		logger.error("this is error level");
+		//JsonData.buildSuccess();
+		return  "log ok";
+	}
+
 	@GetMapping("/api2/dd")
     public  Object get( ){
 		//int i=1/	0;

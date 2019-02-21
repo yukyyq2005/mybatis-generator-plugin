@@ -1,0 +1,194 @@
+2019-02-21 20:39:29.398 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on USER-20180922NY with PID 6716 (C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin)
+2019-02-21 20:39:29.404 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-02-21 20:39:29.586 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-21 20:39:29.586 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-21 20:39:30.511 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 20:39:30.511 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 20:39:30.511 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-21 20:39:30.567 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-21 20:39:30.569 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-21 20:39:30.614 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-02-21 20:39:31.155 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b56bdb14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-21 20:39:31.653 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-21 20:39:31.663 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-21 20:39:31.673 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-21 20:39:31.673 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-21 20:39:31.683 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-02-21 20:39:31.787 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-21 20:39:31.787 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2201 ms
+2019-02-21 20:39:33.853 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-21 20:39:33.997 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-21 20:39:34.008 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-21 20:39:34.010 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-21 20:39:34.012 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-21 20:39:34.013 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-21 20:39:34.391 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-21 20:39:34.443 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-21 20:39:34.468 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-21 20:39:34.472 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 5.874 seconds (JVM running for 8.448)
+2019-02-21 20:40:38.267 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-21 20:40:38.267 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-21 20:40:38.277 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-02-21 20:40:38.564 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-21 20:40:38.566 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-21 20:40:38.783 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-21 20:40:38.909 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-02-21 20:41:05.055 INFO [http-nio-8080-exec-4]com.kfit.DemoController.testLog:44 -this is info level
+2019-02-21 20:41:05.055 WARN [http-nio-8080-exec-4]com.kfit.DemoController.testLog:45 -this is warn level
+2019-02-21 22:25:49.006 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on USER-20180922NY with PID 7888 (C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin)
+2019-02-21 22:25:49.008 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: dev;
+2019-02-21 22:25:49.048 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-21 22:25:49.048 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-21 22:25:49.778 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:25:49.778 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:25:49.778 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-21 22:25:49.827 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-21 22:25:49.827 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-21 22:25:49.858 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-02-21 22:25:50.180 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$26098da5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-21 22:25:50.596 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-21 22:25:50.610 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:25:50.618 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-21 22:25:50.619 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-21 22:25:50.626 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-02-21 22:25:50.752 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-21 22:25:50.752 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1703 ms
+2019-02-21 22:25:51.722 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-21 22:25:51.826 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-21 22:25:51.836 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-21 22:25:51.837 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-21 22:25:51.838 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-21 22:25:51.839 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-21 22:25:52.378 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-21 22:25:52.453 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:25:52.477 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-21 22:25:52.480 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 3.944 seconds (JVM running for 9.203)
+2019-02-21 22:25:52.545 INFO [http-nio-8080-exec-2]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-21 22:25:52.546 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-21 22:25:52.554 INFO [http-nio-8080-exec-2]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-02-21 22:25:52.573 INFO [http-nio-8080-exec-2]com.kfit.DemoController.testLog:53 -this is info level
+2019-02-21 22:25:52.574 WARN [http-nio-8080-exec-2]com.kfit.DemoController.testLog:54 -this is warn level
+2019-02-21 22:26:26.627 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on USER-20180922NY with PID 7312 (C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin)
+2019-02-21 22:26:26.627 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: dev
+2019-02-21 22:26:26.674 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-21 22:26:26.674 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-21 22:26:27.365 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:26:27.365 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:26:27.365 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-21 22:26:27.412 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-21 22:26:27.412 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-21 22:26:27.443 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-02-21 22:26:27.721 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d11bfda] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-21 22:26:28.070 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-21 22:26:28.071 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:26:28.086 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-21 22:26:28.086 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-21 22:26:28.102 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-02-21 22:26:28.201 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-21 22:26:28.202 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1528 ms
+2019-02-21 22:26:29.007 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-21 22:26:29.108 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-21 22:26:29.118 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-21 22:26:29.119 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-21 22:26:29.119 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-21 22:26:29.121 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-21 22:26:29.349 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-21 22:26:29.365 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:26:29.396 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-21 22:26:29.396 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 3.335 seconds (JVM running for 4.836)
+2019-02-21 22:26:31.358 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-21 22:26:31.358 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-21 22:26:31.374 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 16 ms
+2019-02-21 22:26:43.613 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on USER-20180922NY with PID 7388 (C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin)
+2019-02-21 22:26:43.613 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-21 22:26:43.707 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-21 22:26:43.707 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-21 22:26:44.659 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:26:44.659 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:26:44.659 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-21 22:26:44.705 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-21 22:26:44.705 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-21 22:26:44.738 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-02-21 22:26:45.104 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b41d896d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-21 22:26:45.526 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-21 22:26:45.541 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:26:45.541 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-21 22:26:45.541 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-21 22:26:45.560 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-02-21 22:26:45.640 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-21 22:26:45.640 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1933 ms
+2019-02-21 22:26:46.430 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-21 22:26:46.524 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-21 22:26:46.540 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-21 22:26:46.540 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-21 22:26:46.540 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-21 22:26:46.540 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-21 22:26:46.775 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-21 22:26:46.801 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:26:46.817 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-21 22:26:46.817 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 3.966 seconds (JVM running for 5.094)
+2019-02-21 22:27:20.999 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-21 22:27:20.999 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-21 22:27:21.006 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 7 ms
+2019-02-21 22:27:38.753 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on USER-20180922NY with PID 7684 (C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin)
+2019-02-21 22:27:38.755 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-21 22:27:38.797 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-21 22:27:38.798 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-21 22:27:39.926 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:27:39.926 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:27:39.926 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-21 22:27:39.981 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-21 22:27:39.981 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-21 22:27:40.013 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-02-21 22:27:40.367 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e67fe8f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-21 22:27:40.725 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-21 22:27:40.725 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:27:40.741 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-21 22:27:40.741 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-21 22:27:40.741 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-02-21 22:27:40.836 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-21 22:27:40.852 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2054 ms
+2019-02-21 22:27:41.767 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-21 22:27:41.876 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-21 22:27:41.876 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-21 22:27:41.876 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-21 22:27:41.876 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-21 22:27:41.876 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-21 22:27:42.122 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-21 22:27:42.168 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:27:42.191 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-21 22:27:42.194 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.917 seconds (JVM running for 5.981)
+2019-02-21 22:27:43.005 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-21 22:27:43.005 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-21 22:27:43.005 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 0 ms
+2019-02-21 22:28:08.260 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on USER-20180922NY with PID 1128 (C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\mybatis-generator-plugin)
+2019-02-21 22:28:08.263 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-21 22:28:08.341 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-21 22:28:08.342 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-21 22:28:09.182 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:28:09.182 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-21 22:28:09.183 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-21 22:28:09.228 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-21 22:28:09.230 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-21 22:28:09.264 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 18ms. Found 0 repository interfaces.
+2019-02-21 22:28:09.591 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8b1ab574] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-21 22:28:09.938 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-21 22:28:09.938 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:28:09.954 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-21 22:28:09.954 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-21 22:28:09.954 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_131\bin;E:\software\mysql-5.7.25-winx64\bin;C:\windows\system32;C:\Program Files\Git\cmd;C:\Users\Administrator\AppData\Local\Programs\Fiddler;.]
+2019-02-21 22:28:10.067 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-21 22:28:10.067 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1725 ms
+2019-02-21 22:28:10.902 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-21 22:28:10.996 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-21 22:28:10.996 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-21 22:28:10.996 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-21 22:28:10.996 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-21 22:28:10.996 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-21 22:28:11.219 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-21 22:28:11.260 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-21 22:28:11.281 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-21 22:28:11.283 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 3.981 seconds (JVM running for 5.219)
+2019-02-21 22:28:11.537 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-21 22:28:11.537 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-21 22:28:11.552 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 15 ms

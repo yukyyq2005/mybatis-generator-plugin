@@ -33,10 +33,15 @@ public class DemoController {
 	@Autowired
 	private User user;
 	
-	@GetMapping("/get")
+	@GetMapping("/api2/dd")
     public  Object get( ){
-		//int i=1/0;
+		//int i=1/	0;
     	return  user;
+    }
+	@GetMapping("/api1/dd")
+    public  Object api( ){
+		//int i=1/	0;
+    	return  "api1";
     }
 
 //    @Value("${live.accessKeyId}")

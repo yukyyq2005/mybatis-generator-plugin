@@ -66,13 +66,14 @@ public class DemoInfoServiceImpl implements DemoInfoService {
     //方法返回的结果存入缓存。用于新增和修改
     //@CachePut(cacheNames = "rediscache",key = "'stu_'+#result.name",condition="#result!=null")
     //先从缓存获取，如果成功，则不执行方法逻辑，直接返回，否则将执行方法逻辑。用于查询
-    @Cacheable(value = "stu", key = "'stu_'", unless = "#result == null")
+    //@Cacheable(value = "stu", key = "'stu_'", unless = "#result == null")
     //先从缓存获取，如果成功，则不执行方法逻辑，直接返回，否则将执行方法逻辑。用于删除
     //@CacheEvict(cacheNames="stu",key="'stu_'",beforeInvocation = false)
-    public Stu test() {
+    public Stu test(String name) {
         Stu stu = new Stu();
-        stu.setName("YOUQIANG");
+        stu.setName(name);
         stu.setSex("male");
+        System.out.println("插入数据库"+stu.toString()+"---"+stuMapper.insert(stu));
         return stu;
 
 //        Stu stu = new Stu();

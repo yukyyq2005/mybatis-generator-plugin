@@ -1,6 +1,6 @@
 package com.kfit.config;
 
-import com.kfit.interceptor.MyInterceptor1;
+import com.kfit.MyInterceptor1;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;

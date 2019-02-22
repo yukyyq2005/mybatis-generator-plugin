@@ -1,5 +1,5 @@
-package com.kfit.interceptor;
-
+//package com.kfit.interceptor;
+package com.kfit;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 

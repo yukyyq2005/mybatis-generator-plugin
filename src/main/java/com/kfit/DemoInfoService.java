@@ -11,7 +11,7 @@ public interface DemoInfoService {
 
     public void deleteFromCache(int id);
 
-    Stu test();
+    Stu test(String name);
 
     //public  demoinfo getdemoinfoById(int id);
 //    public List<demoinfo> querydemoinfosByNameLike(String name);

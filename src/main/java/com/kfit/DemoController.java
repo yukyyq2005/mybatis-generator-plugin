@@ -127,9 +127,9 @@ public class DemoController {
 	}
 
 	@GetMapping("/test")
-	public String test() {
+	public String test(String name) {
 		try {
-			demoInfoService.test();
+			demoInfoService.test(name);
 
 //            Stu stu = new Stu();
 //            stu.setName("hell2");

@@ -1,4 +1,4 @@
-package com.kfit;
+package com.kfit.config;
 
 //import java.util.concurrent.CountDownLatch;
 //import org.springframework.beans.factory.annotation.Autowired;

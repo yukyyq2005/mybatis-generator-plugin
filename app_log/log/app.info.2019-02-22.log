@@ -1,0 +1,663 @@
+2019-02-22 09:46:48.050 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2641 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 09:46:48.054 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 09:46:48.121 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 09:46:48.121 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 09:46:49.050 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:46:49.050 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:46:49.050 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 09:46:49.241 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 09:46:49.244 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 09:46:49.266 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 09:46:49.683 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c208ddb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 09:46:50.118 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 09:46:50.136 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:46:50.146 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 09:46:50.146 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 09:46:50.157 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 09:46:50.226 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 09:46:50.226 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2104 ms
+2019-02-22 09:46:51.516 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 09:46:51.680 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 09:46:51.688 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 09:46:51.689 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 09:46:51.690 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 09:46:51.692 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 09:46:52.173 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 09:46:52.182 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 09:46:52.233 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:46:52.268 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 09:46:52.270 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.603 seconds (JVM running for 5.001)
+2019-02-22 09:47:06.797 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 09:47:06.798 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 09:47:06.806 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-02-22 09:47:54.308 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 09:47:57.135 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2647 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 09:47:57.137 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 09:47:57.214 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 09:47:57.214 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 09:47:58.034 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:47:58.038 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:47:58.039 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 09:47:58.210 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 09:47:58.213 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 09:47:58.236 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-02-22 09:47:58.645 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db03314e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 09:47:59.067 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 09:47:59.083 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:47:59.093 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 09:47:59.093 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 09:47:59.104 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 09:47:59.174 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 09:47:59.175 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1961 ms
+2019-02-22 09:48:00.333 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 09:48:00.474 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 09:48:00.483 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 09:48:00.484 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 09:48:00.485 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 09:48:00.486 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 09:48:00.799 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 09:48:00.808 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 09:48:00.856 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:48:00.884 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 09:48:00.887 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.147 seconds (JVM running for 4.579)
+2019-02-22 09:48:02.714 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 09:48:02.714 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 09:48:02.722 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-02-22 09:49:22.340 INFO [http-nio-8080-exec-5]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-22 09:49:23.480 WARN [http-nio-8080-exec-5]o.s.boot.actuate.jdbc.DataSourceHealthIndicator.health:89 -DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:109)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:104)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:84)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:98)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:50)
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:246)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:76)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:61)
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$ServletWebOperationAdapter.handle(AbstractWebMvcEndpointHandlerMapping.java:294)
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(AbstractWebMvcEndpointHandlerMapping.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 80 common frames omitted
+2019-02-22 09:49:23.600 INFO [http-nio-8080-exec-5]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 09:49:23.602 INFO [http-nio-8080-exec-5]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 09:49:47.342 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 09:49:55.379 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2651 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 09:49:55.382 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 09:49:55.434 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 09:49:55.436 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 09:49:56.181 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:49:56.181 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:49:56.181 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 09:49:56.330 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 09:49:56.333 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 09:49:56.356 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 09:49:56.768 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b7a18476] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 09:49:57.231 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 09:49:57.247 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:49:57.258 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 09:49:57.259 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 09:49:57.271 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 09:49:57.371 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 09:49:57.372 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1931 ms
+2019-02-22 09:49:58.494 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 09:49:58.606 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 09:49:58.615 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 09:49:58.616 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 09:49:58.617 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 09:49:58.619 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 09:49:58.950 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 09:49:58.958 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 09:49:59.000 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:49:59.030 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 09:49:59.032 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.081 seconds (JVM running for 4.559)
+2019-02-22 09:50:02.170 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 09:50:02.170 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 09:50:02.180 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 10 ms
+2019-02-22 09:50:02.227 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-22 09:50:03.366 WARN [http-nio-8080-exec-1]o.s.boot.actuate.jdbc.DataSourceHealthIndicator.health:89 -DataSource health check failed
+org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.getProduct(DataSourceHealthIndicator.java:122)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doDataSourceHealthCheck(DataSourceHealthIndicator.java:109)
+	at org.springframework.boot.actuate.jdbc.DataSourceHealthIndicator.doHealthCheck(DataSourceHealthIndicator.java:104)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:84)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:98)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:50)
+	at org.springframework.boot.actuate.health.HealthEndpointWebExtension.health(HealthEndpointWebExtension.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:246)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:76)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:61)
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$ServletWebOperationAdapter.handle(AbstractWebMvcEndpointHandlerMapping.java:294)
+	at org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(AbstractWebMvcEndpointHandlerMapping.java:355)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:136)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:198)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:467)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:541)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 80 common frames omitted
+2019-02-22 09:50:03.475 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 09:50:03.476 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 09:51:56.198 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 09:58:19.417 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2675 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 09:58:19.420 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 09:58:19.471 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 09:58:19.472 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 09:58:20.249 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:58:20.250 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 09:58:20.250 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 09:58:20.422 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 09:58:20.424 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 09:58:20.448 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 09:58:20.903 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e53eef0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 09:58:21.332 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 09:58:21.350 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:58:21.361 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 09:58:21.362 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 09:58:21.373 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 09:58:21.455 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 09:58:21.455 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1983 ms
+2019-02-22 09:58:22.786 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 09:58:22.948 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 09:58:22.957 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 09:58:22.958 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 09:58:22.958 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 09:58:22.960 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 09:58:23.285 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 09:58:23.295 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 09:58:23.350 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 09:58:23.380 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 09:58:23.383 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.355 seconds (JVM running for 4.844)
+2019-02-22 09:58:27.457 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 09:58:27.458 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 09:58:27.467 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-02-22 09:58:27.515 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-22 09:58:27.677 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-02-22 09:58:27.816 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 09:58:27.817 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 10:04:49.554 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:04:49.555 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-02-22 10:04:49.562 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-02-22 10:04:53.557 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2713 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:04:53.560 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:04:53.607 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:04:53.607 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:04:54.337 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:04:54.338 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:04:54.338 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:04:54.511 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:04:54.514 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:04:54.537 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 10:04:54.939 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$15f4752c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:04:55.360 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:04:55.376 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:04:55.386 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:04:55.387 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:04:55.397 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:04:55.467 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:04:55.467 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1859 ms
+2019-02-22 10:04:56.655 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:04:56.809 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 10:04:56.819 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:04:56.819 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:04:56.820 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:04:56.822 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:04:57.147 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:04:57.156 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:04:57.208 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:04:57.237 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:04:57.240 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.097 seconds (JVM running for 4.522)
+2019-02-22 10:05:01.221 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 10:05:01.222 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 10:05:01.231 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-02-22 10:05:01.402 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 10:05:01.403 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 10:05:01.522 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-22 10:05:01.664 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-02-22 10:05:38.132 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:05:38.134 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-02-22 10:05:38.143 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-02-22 10:05:41.800 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2715 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:05:41.802 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:05:41.854 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:05:41.854 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:05:42.590 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:05:42.590 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:05:42.590 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:05:42.759 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:05:42.762 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:05:42.784 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 10:05:43.186 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a57347f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:05:43.601 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:05:43.616 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:05:43.627 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:05:43.627 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:05:43.637 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:05:43.702 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:05:43.702 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1847 ms
+2019-02-22 10:05:44.804 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:05:44.947 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 10:05:44.956 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:05:44.956 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:05:44.957 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:05:44.959 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:05:45.253 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:05:45.262 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:05:45.305 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:05:45.334 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:05:45.337 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 3.917 seconds (JVM running for 4.302)
+2019-02-22 10:05:49.122 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 10:05:49.122 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 10:05:49.130 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-02-22 10:05:49.296 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 10:05:49.297 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 10:06:53.163 INFO [http-nio-8080-exec-5]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-22 10:06:53.307 INFO [http-nio-8080-exec-5]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-02-22 10:07:43.453 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:07:43.456 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-02-22 10:07:43.475 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-02-22 10:07:46.309 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2723 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:07:46.313 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:07:46.382 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:07:46.382 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:07:47.543 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:07:47.544 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:07:47.544 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:07:47.787 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:07:47.791 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:07:47.818 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 10:07:48.388 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$61b85091] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:07:48.900 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:07:48.921 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:07:48.931 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:07:48.932 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:07:48.945 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:07:49.033 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:07:49.033 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2651 ms
+2019-02-22 10:07:58.576 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:07:58.724 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 10:07:58.736 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:07:58.737 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:07:58.738 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:07:58.740 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:07:59.180 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:07:59.192 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:07:59.251 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:07:59.296 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:07:59.300 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 13.581 seconds (JVM running for 14.47)
+2019-02-22 10:11:44.997 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2728 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:11:45.000 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:11:45.072 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:11:45.073 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:11:45.827 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:11:45.827 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:11:45.828 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:11:46.005 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:11:46.008 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:11:46.030 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 10:11:46.441 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4706921b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:11:46.851 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:11:46.867 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:11:46.878 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:11:46.878 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:11:46.889 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:11:46.962 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:11:46.963 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1890 ms
+2019-02-22 10:11:48.135 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:11:48.284 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 10:11:48.295 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:11:48.296 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:11:48.297 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:11:48.298 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:11:48.613 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:11:48.622 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:11:48.669 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:11:48.697 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:11:48.700 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.112 seconds (JVM running for 4.498)
+2019-02-22 10:11:51.382 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 10:11:51.382 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 10:11:51.391 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 9 ms
+2019-02-22 10:11:51.577 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 10:11:51.578 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 10:11:51.720 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-22 10:11:51.870 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-02-22 10:12:40.958 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:12:40.959 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-02-22 10:12:40.965 INFO [Thread-11]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-02-22 10:12:43.072 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2729 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:12:43.074 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:12:43.130 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:12:43.131 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:12:43.916 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:12:43.917 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:12:43.917 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:12:44.101 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:12:44.104 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:12:44.127 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 10:12:44.574 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edbe8937] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:12:45.003 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:12:45.019 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:12:45.030 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:12:45.031 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:12:45.041 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:12:45.112 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:12:45.112 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1981 ms
+2019-02-22 10:12:46.284 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:12:46.427 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 10:12:46.436 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:12:46.437 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:12:46.438 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:12:46.439 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:12:46.756 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:12:46.765 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:12:46.814 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:12:46.842 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:12:46.845 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.161 seconds (JVM running for 4.545)
+2019-02-22 10:12:50.618 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 10:12:50.619 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 10:12:50.631 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 12 ms
+2019-02-22 10:12:50.806 INFO [http-nio-8080-exec-1]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 10:12:50.807 INFO [http-nio-8080-exec-1]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 10:13:35.312 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:13:39.142 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2736 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:13:39.145 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:13:39.198 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:13:39.199 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:13:39.952 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:13:39.953 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:13:39.953 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:13:40.123 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:13:40.125 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:13:40.149 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-02-22 10:13:40.554 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34171b2f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:13:40.968 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:13:40.984 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:13:40.994 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:13:40.994 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:13:41.004 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:13:41.071 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:13:41.072 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1873 ms
+2019-02-22 10:13:42.216 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:13:42.348 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [static/index.html]
+2019-02-22 10:13:42.359 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:13:42.360 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:13:42.361 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:13:42.362 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:13:42.718 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:13:42.728 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:13:42.783 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:13:42.814 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:13:42.816 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.055 seconds (JVM running for 4.445)
+2019-02-22 10:13:44.341 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 10:13:44.341 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 10:13:44.349 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-02-22 10:13:44.391 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-02-22 10:13:44.533 INFO [http-nio-8080-exec-1]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-02-22 10:14:06.310 INFO [http-nio-8080-exec-7]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-02-22 10:14:06.311 INFO [http-nio-8080-exec-7]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-02-22 10:36:11.486 INFO [Thread-6]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:36:11.487 INFO [Thread-6]com.zaxxer.hikari.HikariDataSource.close:350 -HikariPool-1 - Shutdown initiated...
+2019-02-22 10:36:11.500 INFO [Thread-6]com.zaxxer.hikari.HikariDataSource.close:352 -HikariPool-1 - Shutdown completed.
+2019-02-22 10:36:12.782 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2736 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:36:12.782 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:36:13.054 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:36:13.055 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:36:13.055 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:36:13.103 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:36:13.103 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:36:13.107 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-02-22 10:36:13.162 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34171b2f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:36:13.214 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:36:13.217 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:36:13.218 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:36:13.218 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:36:13.225 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:36:13.226 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 442 ms
+2019-02-22 10:36:13.756 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:36:13.806 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [public/index.html]
+2019-02-22 10:36:13.812 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:36:13.812 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:36:13.812 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:36:13.812 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:36:13.990 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:36:13.994 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:36:14.037 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:36:14.039 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:36:14.043 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 1.287 seconds (JVM running for 1355.693)
+2019-02-22 10:36:14.047 INFO [restartedMain]o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent:56 -Condition evaluation unchanged
+2019-02-22 10:36:17.124 INFO [Thread-21]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:36:26.284 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2782 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:36:26.288 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:36:26.335 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:36:26.335 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:36:27.117 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:36:27.118 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:36:27.118 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:36:27.306 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:36:27.308 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:36:27.346 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2019-02-22 10:36:27.780 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$373675b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:36:28.229 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:36:28.247 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:36:28.259 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:36:28.259 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:36:28.270 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:36:28.340 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:36:28.341 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2006 ms
+2019-02-22 10:36:29.582 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:36:29.746 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-02-22 10:36:29.769 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [public/index.html]
+2019-02-22 10:36:29.777 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:36:29.778 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:36:29.779 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:36:29.781 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:36:30.104 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:36:30.113 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:36:30.169 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:36:30.200 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:36:30.202 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.308 seconds (JVM running for 4.706)
+2019-02-22 10:36:32.031 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 10:36:32.031 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 10:36:32.044 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 13 ms
+2019-02-22 10:37:13.054 INFO [Thread-11]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:37:16.818 INFO [restartedMain]com.kfit.KfitApplication.logStarting:50 -Starting KfitApplication on yoky.local with PID 2785 (/Users/tsningning/Desktop/new/mybatis-generator-plugin/target/classes started by youq in /Users/tsningning/Desktop/new/mybatis-generator-plugin)
+2019-02-22 10:37:16.821 INFO [restartedMain]com.kfit.KfitApplication.logStartupProfileInfo:679 -The following profiles are active: test
+2019-02-22 10:37:16.887 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-22 10:37:16.887 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:227 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-22 10:37:17.671 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'roleMapper' and 'com.kfit.dao.RoleMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:37:17.672 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate:239 -Skipping MapperFactoryBean with name 'stuMapper' and 'com.kfit.dao.StuMapper' mapperInterface. Bean already defined with the same name!
+2019-02-22 10:37:17.672 WARN [restartedMain]org.mybatis.spring.mapper.ClassPathMapperScanner.doScan:166 -No MyBatis mapper was found in '[com.kfit]' package. Please check your configuration.
+2019-02-22 10:37:17.861 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-02-22 10:37:17.864 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-22 10:37:17.903 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-22 10:37:18.327 INFO [restartedMain]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5e25285] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-22 10:37:18.775 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-02-22 10:37:18.794 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:37:18.813 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-02-22 10:37:18.813 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-22 10:37:18.824 INFO [restartedMain]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/tsningning/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-02-22 10:37:18.901 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-02-22 10:37:18.901 INFO [restartedMain]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 2013 ms
+2019-02-22 10:37:20.130 INFO [restartedMain]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-22 10:37:20.299 WARN [restartedMain]org.thymeleaf.templatemode.TemplateMode.parse:150 -[THYMELEAF][restartedMain] Template Mode 'LEGACYHTML5' is deprecated. Using Template Mode 'HTML' instead.
+2019-02-22 10:37:20.323 INFO [restartedMain]o.s.b.a.web.servlet.WelcomePageHandlerMapping.<init>:56 -Adding welcome page: class path resource [public/index.html]
+2019-02-22 10:37:20.332 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2019-02-22 10:37:20.333 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2019-02-22 10:37:20.334 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeStaticCache:60 -Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2019-02-22 10:37:20.335 INFO [restartedMain]tk.mybatis.mapper.autoconfigure.MapperCacheDisabler.removeEntityHelperCache:83 -Clear EntityHelper entityTableMap cache.
+2019-02-22 10:37:20.708 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:57 -LiveReload server is running on port 35729
+2019-02-22 10:37:20.716 INFO [restartedMain]o.s.boot.actuate.endpoint.web.EndpointLinksResolver.<init>:59 -Exposing 2 endpoint(s) beneath base path '/actuator'
+2019-02-22 10:37:20.763 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-02-22 10:37:20.796 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-22 10:37:20.799 INFO [restartedMain]com.kfit.KfitApplication.logStarted:59 -Started KfitApplication in 4.427 seconds (JVM running for 4.841)
+2019-02-22 10:37:22.395 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-22 10:37:22.395 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-02-22 10:37:22.406 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 11 ms
